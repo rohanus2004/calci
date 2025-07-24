@@ -61,7 +61,8 @@ export function AiFormulaToolView() {
       <CardHeader>
         <CardTitle>AI Formula Suggester</CardTitle>
         <CardDescription>
-          Enter a list of numbers (comma or space separated), and our AI will suggest relevant engineering and scientific formulas.
+          Enter a list of numbers (comma or space separated), and our AI will suggest relevant engineering and scientific formulas. 
+          To use permutations or combinations, type npr(n, r) or ncr(n, r) in the calculator.
         </CardDescription>
       </CardHeader>
       <CardContent>

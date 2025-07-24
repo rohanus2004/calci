@@ -82,7 +82,7 @@ export function UnitConverterView() {
               </SelectContent>
             </Select>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-end gap-4">
+          <div className="grid md:grid-cols-[1fr_auto_1fr] items-end gap-4">
             <div className="space-y-2">
               <label htmlFor="from-unit" className="text-sm font-medium">From</label>
               <div className="flex gap-2">
@@ -98,7 +98,7 @@ export function UnitConverterView() {
               </div>
             </div>
 
-            <Button variant="ghost" size="icon" onClick={swapUnits} className="mb-2 hidden md:inline-flex">
+            <Button variant="ghost" size="icon" onClick={swapUnits} className="my-2 md:mb-2 mx-auto">
               <ArrowRightLeft className="w-5 h-5" />
             </Button>
 
